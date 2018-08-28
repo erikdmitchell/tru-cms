@@ -73,7 +73,8 @@ final class TRU_CMS {
      * @return void
      */
     public function includes() {
-        include_once( TRU_CMS_PATH . 'post-types/news.php' );        
+        include_once( TRU_CMS_PATH . 'post-types/news.php' );
+        include_once( TRU_CMS_PATH . 'post-types/faq.php' );                
     }
 
     /**
