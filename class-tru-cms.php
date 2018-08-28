@@ -74,7 +74,8 @@ final class TRU_CMS {
      */
     public function includes() {
         include_once( TRU_CMS_PATH . 'post-types/news.php' );
-        include_once( TRU_CMS_PATH . 'post-types/faq.php' );                
+        include_once( TRU_CMS_PATH . 'post-types/faq.php' );
+        include_once( TRU_CMS_PATH . 'post-types/about.php' );                        
     }
 
     /**
