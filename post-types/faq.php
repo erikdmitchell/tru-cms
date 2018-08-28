@@ -41,6 +41,7 @@ function faq_init() {
 		'rewrite'               => true,
 		'query_var'             => true,
 		'menu_icon'             => 'dashicons-editor-help',
+		'menu_position'        => 22,
 		'show_in_rest'          => true,
 		'rest_base'             => 'faq',
 		'rest_controller_class' => 'WP_REST_Posts_Controller',
